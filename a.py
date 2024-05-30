@@ -48,7 +48,7 @@ headers = {
 	}
 while True:
 	try:
-		data ={"taps":50,"time":1717083543277}
+		data ={"taps":13,"time":1717083543277}
 		time.sleep(10)
 		
 		response = requests.post(url, headers=headers, json=data)
